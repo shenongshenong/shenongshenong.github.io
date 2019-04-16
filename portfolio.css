@@ -1,0 +1,444 @@
+
+body {
+  background-image: url("images/backgroundSmart.jpg");
+}
+
+/* ---- MAIN PAGE  ----  */
+
+/* top Background */
+#catPic img {
+  width: 150%;
+  position: relative;
+  margin-top: -1%;
+  top: 0%;
+  left: -18%;
+}
+
+#blueTopLeft img {
+  width: 60%;
+  position: absolute;
+  margin-top: -1%;
+  top: 0%;
+  left: -18%;
+  z-index:5;
+}
+
+#blueTopLeft:hover img {
+  opacity: 0;
+  filter: alpha(opacity=100);
+  transition: 1s;
+}
+
+#blueTopMiddle img {
+  width: 50%;
+  position: absolute;
+  margin-top: -1%;
+  top: 0%;
+  left: 33%;
+  z-index:5;
+}
+  
+#blueTopMiddle:hover img {
+  opacity: 0;
+  filter: alpha(opacity=100);
+  transition: 1s;
+}
+
+#blueTopRight img {
+  width: 60%;
+  position: absolute;
+  margin-top: -1%;
+  top: 0%;
+  left: 75%;
+  z-index:5;
+}
+
+#blueTopRight:hover img {
+  opacity: 0;
+  filter: alpha(opacity=100);
+  transition: 1s;
+}
+
+/* middle background */
+#dogPic img {
+	width: 150%;
+  position: relative;
+  margin-top: -17%;
+  top: 0%;
+  left: -18%;
+    z-index:10;
+}
+
+#blueMiddleLeft img {
+  width: 63%;
+  position: absolute;
+  top: 2%;
+  left: -18%;
+  z-index:15;
+}
+
+#blueMiddleLeft:hover img {
+  opacity: 0;
+  filter: alpha(opacity=100);
+  transition: 1s;
+}
+
+#blueMiddleMiddle img {
+  width: 53%;
+  position: absolute;
+  top: 2%;
+  left: 30%;
+  z-index:15;
+}
+
+
+#blueMiddleRight img {
+  width: 65.2%;
+  position: absolute;
+  top: -0.4%;
+  left: 66.81%;
+  z-index:15;
+}
+
+#blueMiddleRight:hover img {
+  opacity: 0;
+  filter: alpha(opacity=100);
+  transition: 1s;
+}
+
+/* bottom background */
+#duckPic img{
+	width: 150%;
+  position: relative;
+  margin-top: -13%;
+  top: 0%;
+  left: -18%;
+    z-index:15;
+}
+
+#blueBottomLeft img {
+  width: 65%;
+  position: absolute;
+  top: -0.5%;
+  left: -18.4%;
+  z-index:15;
+}
+
+#blueBottomLeft:hover img {
+  opacity: 0;
+  filter: alpha(opacity=100);
+  transition: 1s;
+}
+
+#blueBottomMiddle img {
+  width: 48.4%;
+  position: absolute;
+  top: -0.5%;
+  left: 35.4%;
+  z-index:15;
+}
+  
+#blueBottomMiddle:hover img {
+  opacity: 0;
+  filter: alpha(opacity=100);
+  transition: 1s;
+}
+
+#blueBottomRight img {
+  width: 62%;
+  position: absolute;
+  top: 5.6%;
+  left: 70%;
+  z-index:15;
+}
+
+#blueBottomRight:hover img {
+  opacity: 0;
+  filter: alpha(opacity=100);
+  transition: 1s;
+}
+
+/* slidelogo */
+
+#mySidenav {
+	position: absolute;
+  z-index: 50;
+  top: 10%;
+  left: 45%;
+
+  transition: 0.5s;
+}
+
+#mySidenav a img{
+	width: 65%;
+	opacity: 0.8;
+}
+
+#mySidenav a{
+  text-decoration: none;
+  transition: 0.3s;
+} 
+
+#line {
+	background-color: grey;
+	margin-top: -1vw;
+	margin-left: -5vw;
+	position: relative;
+	height: 2vw;
+	width: 110vw;
+	z-index: 20;
+}
+
+
+/* abouttext */
+
+#buttonSt img{
+	width: 5%;
+	position: relative;
+	margin-top: 30vw;
+	left: 46%;
+	z-index: 22;
+}
+
+#whiteSquare {
+	background-color: white;
+	position: absolute;
+	opacity: 0.5;
+	height: 50vw;
+	width: 110vw;
+	margin-left: -5vw;
+	margin-top: 1vw;
+	z-index: 21;
+}
+
+#topBlock {
+	width: 70vw;
+	margin-left: 20vw;
+	display: inline-block;
+}
+
+#firstText {
+	position: relative;
+	float: left;
+	font-family: calibri;
+	font-size: 1.6vw;
+	color: white;
+	width: 40%;
+	z-index:22;
+}
+
+#scaph{
+	position: relative;
+	top: 10vw;
+	left: 15vw;
+	z-index:22;
+}
+
+#scaph img{
+	width: 30%;
+}
+
+#message img{
+	top: 0%;
+	margin-left: 60%;
+	width: 10%;
+	position: relative;
+  left: -16%;
+  z-index:22;
+}
+
+#picto {
+	margin-top: 2%;
+	margin-left: 40%;
+}
+
+#picto img{
+	position: relative;
+	z-index: 22;
+}
+
+#facebook img{
+	left: 2%;
+	float: left;
+	width: 5%;
+	z-index: 22;
+}
+
+#instagram img{
+	left: 4%;
+	float: left;
+	width: 5%;
+	z-index: 22;
+}
+
+#pinterest img{
+	left: 6%;
+	float: left;
+	width: 5%;
+	z-index: 22;
+}
+
+#twitter img{
+	left: 8%;
+	float: left;
+	width: 5%;
+	z-index: 22;
+}
+
+#buttonNd img{
+	width: 5%;
+	position: relative;
+	margin-top: 7%;
+	left: -5.5%;
+	z-index: 22;
+}
+
+
+/* ----  PAINTINGS PAGE ---- */
+
+#banner img{
+	margin-top: -2.5%;
+	left: -2.5%;
+	width: 110%;
+	position: relative;
+  z-index:5;
+}
+
+.bannerText {
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-top: -30vw;
+	z-index: 10;
+}
+
+.bannerText a{
+	text-decoration: none;
+}
+
+.bannerText p{
+	font-weight: bold;
+	text-align: center;
+	opacity: 0;
+	font-family: arial, verdana, sans-serif;
+	font-size: 10vw;
+	color: black;
+	z-index: 10;
+}
+
+.bannerText p:hover{
+	text-align: center;
+	opacity: 1;
+	z-index: 10;
+	transition: 2s;
+}
+
+#bare {
+	margin-top: -0.3vw;
+	margin-left: -5vw;
+	width: 110vw;
+	height: 2vw;
+	background-color: white;
+	opacity: 0.5;
+}
+
+#squarePaintingsText {
+	margin-top: 10vw;
+	opacity: 0.5;
+	position: relative;
+	left: -5vw;
+	top: 5%;
+  height: 10vw;
+  width: 110vw;
+  background-color: white;
+  	padding-bottom: 5vw;
+}
+
+#paintingsIntro p {
+	font-family: verdana;
+	font-size: 1vw;
+	color: white;
+}
+
+#paintingsIntro {
+	margin-top: -10vw;
+	width: 40vw;
+	padding-left: 27vw;
+	padding-bottom: 5vw;
+}
+
+
+.column {
+	width: 15%;
+	position: relative;
+	left: 0%;
+  float: left;
+  padding-top: 0.2%;
+  padding-right: 0.2%;
+}
+
+.paintingsGrid {
+width: 110%;
+}
+
+.paintingsGrid::after {
+	margin-top: 0%;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.paintingsGrid img {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.topicbox {
+	margin-top: 3vw;
+	opacity: 0.5;
+	position: relative;
+	left: -5vw;
+	top: 5%;
+  height: 2.5vw;
+  width: 110vw;
+  background-color: white;
+}
+
+.topicTitles p {
+	font-family: verdana;
+	font-size: 2vw;
+	color: white;
+	margin-top: -2.5vw;
+	padding-left: 27vw;
+}
+
+.back img {
+	opacity: 0.8;
+	margin-left: 20vw;
+	margin-top: 5vw;
+	width: 10vw;
+}
+
+
+.copyright {
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	margin-top: 15vw;
+	opacity: 1;
+	margin-left: -5vw;
+  height: 5vw;
+  width: 110vw;
+  background-color: #171717;
+}
+
+.copyright p {
+	padding-top: 1vw;
+	margin-left: 43vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8vw;
+	color: dimgrey;
+}
+
+/* POSTERS PAGE */
+
